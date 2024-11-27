@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+ 
+}
+
+body{
+      --background-color: white;
+      --text-color: black;
+      --elements-coolor:white;
+      margin: 0; 
+      font-family: nunito,sans-serif;
+
+   
+}
+header, main{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main.dark , header.dark{
+    --background-color: hsl(207, 26%, 17%); 
+    --text-color: white;
+    --elements-color: hsl(209, 23%, 22%);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.headerBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: center;
+    padding-inline: 24px;
+    max-width: 1200px;
+}
+
+.title{
+    font-weight: 800;
+}
+
+
+
+
+
+
+

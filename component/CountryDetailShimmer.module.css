@@ -1,0 +1,13 @@
+.flag{
+    width: 300px;
+    height: 210px;
+    background-color: #ccc;
+}
+
+.countryDetailShimmer{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-top: 64px;
+    /* justify-content: space-between; */
+}

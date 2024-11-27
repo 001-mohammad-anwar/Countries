@@ -1,0 +1,30 @@
+.cardList{
+    /* border: 1px  solid black; */
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 24px; 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+@media(max-width: 768px) {
+    .container{
+        justify-content: center;
+    }
+}
+
+.main{
+    padding-inline:16px ;
+    padding-block: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
