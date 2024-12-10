@@ -10,7 +10,6 @@ const CountryDetail = () => {
   //   const year =  new URLSearchParams(location.search).get('age')
   
   const {state}= useLocation();
-  console.log();
   const param = useParams();
  
   const countryName = param.country;
@@ -118,7 +117,7 @@ const CountryDetail = () => {
               <div className={style.flag}>
                 <img src={CountryData.flag} alt={CountryData.name} />
               </div>
-              <div>
+              <div className={style.Left}>
                 <h1>{CountryData.name}</h1>
                 <p>
                   <b>Native Name:</b>

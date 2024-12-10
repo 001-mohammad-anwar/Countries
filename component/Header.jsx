@@ -9,6 +9,7 @@ const Header = ({theme}) => {
   // }else{
   //   document.body.classList.remove('dark')
   // }
+
   return (
     <header className={`header-container ${isdark ? 'dark' : ''} `}>
       <div className='headerBox'>

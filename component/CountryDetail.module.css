@@ -39,10 +39,11 @@
     font-size: 14px;
 }
 
-.BorderCuntries{
-    display: flex;
-    flex-wrap:  wrap;
-}
+/* .BorderCuntries{
+    /* margin-top: 44px; */
+    /* display: flex; */
+    /* flex-wrap:  wrap; */
+/* } */ */
 
 main{
     min-height: calc(100vh-73px);

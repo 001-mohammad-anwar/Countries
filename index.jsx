@@ -34,11 +34,7 @@ import CountryDetail from "./component/CountryDetail";
            
       ],
     },
-    {
-      future: {
-        v7_startTransition: true,  // enable the flag
-      },
-    }
+
 
   ],
 
