@@ -6,13 +6,13 @@ import SelectManue from "./SelectManue";
 import { useOutletContext } from 'react-router-dom';
 const Home = () => {
    const [isdark] =  useOutletContext('')
-   console.log(isdark);
+  //  console.log(isdark);
     const [query, setquery] = useState('')  
   return (
     <main className={`${isdark?'dark':''} `}>
       <div className={style.cardList}>
         <div className={style.main}>
-          <SearchCountry setquery={setquery} />
+          <SearchCountry setquery={setquery}/>
           <SelectManue setquery={setquery}/>
         </div>
         <CardContainer query={query} />

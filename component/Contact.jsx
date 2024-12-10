@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const Contact = () => {
   const param = useParams()
-  console.log(param)
+  // console.log(param)
   return (
     <div>
          <h1>this is Contact Page</h1>
